@@ -37,7 +37,7 @@ Essas estruturas são declaradas como um objeto json pela biblioteca json_conver
 prolog_to_json(D, JsonNames). 
 ```
 
-A ideia é, então criar uma espécie de API que retorna, sempre que acessada, um arquivo JSON que contém uma lista de deuses gregos e seus respectivos links na Wikipedia.
+A ideia é então criar uma espécie de API que retorna, sempre que acessada, um arquivo JSON que contém uma lista de deuses gregos e seus respectivos links na Wikipedia.
 
 ## 2 - Chuck Norris API
 Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, utilizamos uma [api](https://api.chucknorris.io/jokes/random?category=dev) que nos gera piadas do Chuck Norris. O resultado pode ser acessado no [github](https://github.com/Fleivio/ChuckNorrisProlog).
