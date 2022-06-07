@@ -14,6 +14,11 @@ Feito isso, utilizamos a biblioteca [xpath](https://www.swi-prolog.org/pldoc/doc
 ```
 xpath(DOM, Path, Out). %onde path é o caminho para buscar o elemento
 ```
+A variável Path precisa estar formatada de acordo com o xpath, ou seja, informando as tags HTML nas quais a informação desejada se encontra, por exemplo:
+
+```
+//body/div/table(@id = 'tab1')
+```
 
 A paǵina escolhida foi [Family tree of the Greek gods](https://en.wikipedia.org/wiki/Family_tree_of_the_Greek_gods) por ter uma estrutura relativamente simples de ser varrida.
 
