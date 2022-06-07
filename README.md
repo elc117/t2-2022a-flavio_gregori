@@ -16,7 +16,9 @@ xpath(DOM, Path, Out). %onde path é o caminho para buscar o elemento
 ```
 
 A paǵina escolhida foi [Family tree of the Greek gods](https://en.wikipedia.org/wiki/Family_tree_of_the_Greek_gods) por ter uma estrutura relativamente simples de ser varrida.
-	
+
+![pagina](GreekTree.png)
+
 Neste caso, buscamos pelo nome e pelo link da página na Wikipedia de cada deus grego presente na lista. Esta operação nos resulta uma lista de elementos estruturados da seguinte maneira:
 	
 ```
