@@ -39,8 +39,10 @@ prolog_to_json(D, JsonNames).
 
 A ideia é então criar uma espécie de API que retorna, sempre que acessada, um arquivo JSON que contém uma lista de deuses gregos e seus respectivos links na Wikipedia.
 
-## 2 - Chuck Norris API
-Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, utilizamos uma [api](https://api.chucknorris.io/jokes/random?category=dev) que nos gera piadas do Chuck Norris. O resultado pode ser acessado no [github](https://github.com/Fleivio/ChuckNorrisProlog).
+## Exercício proposto
+Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, utilizamos uma [api](https://api.chucknorris.io/jokes/random?category=dev) que nos gera piadas do Chuck Norris. Utilizando as bibliotecas citadas e a documentação, faça um código em prolog que envie uma requisição à API e mostre a piada na tela.
+
+![piada](piada.png)
 	
 ## Referências consultadas:
 
