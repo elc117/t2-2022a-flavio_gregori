@@ -65,6 +65,8 @@ json_read_dict(Stream, Dict).
 
 
 ![piada](piada.png)
+
+[Possível solução desenvolvida por nós](https://github.com/Fleivio/ChuckNorrisProlog)
 	
 ## Referências consultadas:
 
