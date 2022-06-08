@@ -39,6 +39,23 @@ prolog_to_json(D, JsonNames).
 
 A ideia é então criar uma espécie de API que retorna, sempre que acessada, um arquivo JSON que contém uma lista de deuses gregos e seus respectivos links na Wikipedia.
 
+## 2 - Cliente
+Além das bibliotecas para requisições HTTP, o Prolog conta com bibliotecas que auxiliam na interação com páginas web. A biblioteca "html_write" permite a criação de páginas HTML e a renderização de elementos nessas páginas.
+
+```
+reply_html_page(title('Greek Gods'), link([rel('stylesheet'), href('./style.css')]), D).
+```
+
+Os dados exibidos nessa página podem ser buscados através de documentos JSON. Porém, esses dados precisam ser transformados em dados reconhecidos pelo Prolog. A biblioteca "json_convert" permite fazer essas conversões.
+
+```
+json_to_prolog(JsonNames, A),
+```
+
+Dessa forma, juntamente com um arquivo de estilização CSS, foi possível criar a seguinte página:
+
+![paginaweb](pagina.png)
+
 ## Exercício proposto
 Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, utilizamos uma [api](https://api.chucknorris.io/jokes/random?category=dev) que nos gera piadas do Chuck Norris. Utilizando as bibliotecas citadas e a documentação, faça um código em prolog que envie uma requisição à API e mostre a piada na tela.
 
