@@ -66,3 +66,4 @@ Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, util
 - [Swi-prolog HTTP support](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/http.html%27))
 - [Swi-prolog SGML/XML parser](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/sgml.html%27))
 - [Xpath cheatsheet](https://devhints.io/xpath)
+- [Slides](https://docs.google.com/presentation/d/1LL7Fk0Ao-ExhzlIsP45F1qtT9vwAuIuUTr3afHlDiKc/edit?usp=sharing)
