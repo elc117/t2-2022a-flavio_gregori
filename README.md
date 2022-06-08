@@ -59,6 +59,11 @@ Dessa forma, juntamente com um arquivo de estilização CSS, foi possível criar
 ## Exercício proposto
 Para os testes iniciais sobre o funcionamento das bibliotecas supracitadas, utilizamos uma [api](https://api.chucknorris.io/jokes/random?category=dev) que nos gera piadas do Chuck Norris. Utilizando as bibliotecas citadas e a documentação, faça um código em prolog que envie uma requisição à API e mostre a piada na tela.
 
+```
+json_read_dict(Stream, Dict).
+```
+
+
 ![piada](piada.png)
 	
 ## Referências consultadas:
