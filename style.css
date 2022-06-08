@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: gladiator;
+    src: url(DalekPinpointBold.ttf);
+}
+
+h1 {
+    font-family: gladiator;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px 0 5px 0;
+    width: 100%;
+    background-color: #984006;
+    color: white;
+}
+
+body {
+    background-color: #f2be56;
+}
+
+a {
+    font-family: sans-serif;
+    color: white;
+    width: 15%;
+    margin: 5px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    background-color: #a17644;
+}
+
+a:hover {
+    background-color: #f9b622;
+}
+
+.main {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+    flex: 1 1;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 75%;
+    justify-content: center;
+}
